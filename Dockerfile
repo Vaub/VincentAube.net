@@ -8,4 +8,4 @@ RUN pip install -r /tmp/requirements.txt
 
 COPY . /tmp/
 RUN cd /tmp/ && \
-    pelican -t /tmp/theme -s /tmp/publishconf.py -o /usr/share/nginx/html /tmp/content
+    pelican -t theme -s publishconf.py -o /usr/share/nginx/html content
