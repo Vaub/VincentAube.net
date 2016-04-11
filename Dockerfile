@@ -7,5 +7,5 @@ COPY requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
 
 COPY . /tmp/
-RUN pelican -t /tmp/theme /tmp/content && \
-    cp -a /tmp/output/. /usr/share/nginx/html
+RUN cd /tmp/ && \
+    pelican -t /tmp/theme -s /tmp/publishconf.py -o /usr/share/nginx/html /tmp/content
