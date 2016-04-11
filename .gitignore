@@ -1,0 +1,10 @@
+output/
+
+*.pid
+*.db
+*.swp
+
+*.pyc
+
+.idea/
+.vscode/
