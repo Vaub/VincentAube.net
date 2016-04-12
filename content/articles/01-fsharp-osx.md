@@ -4,7 +4,7 @@ Date: 2016-04-07 6:00
 Category: blog
 
 For my first article, I will talk about the technologies I am using to do side project with F# without Visual Studio.
-While I focus on OS X, most of it is applicable with Linux (and Windows!). I chose this subject as I did not have a lot of knowledge of the .NET ecosystem
+While I **focus on OS X**, most of it is applicable with Linux (and Windows!). I chose this subject as I did not have a lot of knowledge of the .NET ecosystem
 and most tutorials cover Windows.
 
 
