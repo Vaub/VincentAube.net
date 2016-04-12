@@ -1,4 +1,5 @@
-Title: F# development without Visual Studio (in OS X)
+Title: F# development without Visual Studio
+Subtitle: Exploration of tooling focusing on OS X
 Date: 2016-04-07 6:00
 Category: blog
 
