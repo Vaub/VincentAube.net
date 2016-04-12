@@ -9,9 +9,9 @@ and most tutorials cover Windows.
 
 
 ## Why F# ?
-I decided to try to use F# when deciding to learn a functional language. F# seemed to me like a user-friendly OCaml with better tooling, ecosystem and documentation.
+I started to use F# when deciding to learn a functional language. It seemed to be a "more" user-friendly OCaml with better tooling, ecosystem and documentation.
 
-The argument could also be made that .NET is tied to Microsoft, but F# seems to be mostly driven by its community with awesome projects.
+The argument could also be made that .NET is tied to Microsoft, but F# seems to be mostly driven by its community with awesome projects!
 
 
 ## Setup
@@ -136,31 +136,30 @@ Choose a template:
 If you want multi project solution, `cd mySlnFolder` and re-run `forge new` in it
 
 #### Using `.fsproj` files
-To add files to the compiling, find the `Compile` targets and add your file (remember, compiling order is important in F#)
+To add files to the project, find the `Compile` targets and add your file (remember, compiling order is important in F#)
 ```xml
 <ItemGroup>
     <Compile Target="myproject.fs" />
     ...
 </ItemGroup>
 ```
-
-For single project, this is the most you will have to interact with MSBuild. However, if you like to cross-reference projects here is how to do it:
+For a single project, this is the most you will have to interact with MSBuild. However, if you like to cross-reference projects here is how to do it:
 ```xml
 <ItemGroup>
     <Reference Include="mscorlib" />
     ...
 
-    <ProjectReference Include="..\core\core.fsproj">
-      <Project>{99745828-ACF5-4B1B-8301-78F8345EB1CC}</Project> <!-- optional -->
-      <Name>core</Name> <!-- optional -->
+    <ProjectReference Include="..\ProjectName\ProjectName.fsproj">
+      <Project>{MY_UUID}</Project> <!-- optional -->
+      <Name>ProjectName</Name> <!-- optional -->
     </ProjectReference>
 </ItemGroup>
 ```
-Just add this `ProjectReference` linking to another sub-project and voilà, you can now compile with no headaches!
-> Ionide (using F# Completion Tools) use the .fsproj files for the auto-completion
+Just add this `ProjectReference` linking to another sub-project and voilà; you can now compile with no headaches!
+> Ionide (using F# Compiler Service) uses the .fsproj files for auto-completion
 
 #### External libraries
-Remember Paket? This is how we are going to manage external (NuGet probably) dependencies.
+Remember Paket? This is how we are going to manage external (probably NuGet) dependencies.
 See their [Getting started](https://fsprojects.github.io/Paket/getting-started.html) to learn how to use it.
 
 If you can't compile, it is because the package is not referenced in your project :
@@ -186,7 +185,8 @@ but it is basically a build system using F# (much easier to use than MSBuild).
 
 ## Conclusion
 I hope you liked this article. I feel that getting F# up and running in OS X (without previous knowledge of MSBuild or .NET in general)
-is not straightforward and hopefully this can be a small reference on how to get it setup.
+is not that straightforward and hopefully this can be a small reference on how to get it setup.
+I will update it in the future as the technology gets better (hopefully).
 
 
 ## Useful resources
