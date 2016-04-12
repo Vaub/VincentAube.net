@@ -6,9 +6,9 @@ Projets personnels et scolaires.
 
 <ul class="about-signs horizontal">
     <li>
-        <div class="about-images">
+        <a href="https://github.com/Vaub/" class="about-images">
             <img src="/images/logo-github.png" alt="GitHub logo" />
-        </div>
+        </a>
         <div class="about-text">
             <h3>GitHub</h3>
             <p>
@@ -17,9 +17,9 @@ Projets personnels et scolaires.
         </div>
     </li>
     <li>
-        <div class="about-images">
+        <a href="https://microsoft.com/store/apps/rtc-mobile/9wzdncrdqjqp" class="about-images">
             <img src="/images/logo-rtc.png" alt="RTC Mobile Logo" />
-        </div>
+        </a>
         <div class="about-text">
             <h3>RTC Mobile Windows Phone</h3>
             <p>
