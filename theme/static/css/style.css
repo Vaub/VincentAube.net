@@ -107,55 +107,16 @@ footer {
     font-style: italic;
 }
 
+.entry-comments {
+    padding-top: 20px;
+}
+
 #post-list {
     padding-left: 0;
 }
 
 #post-list li {
     list-style: none;
-}
-
-#projects {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-
-    margin-top: 20px;
-}
-
-.project-row {
-    display: table-row;
-}
-
-.project-item {
-    display: table-cell;
-
-    text-align: center;
-    vertical-align: top;
-
-    padding: 10px;
-}
-
-.project-item > * {
-    display: block;
-}
-
-.project-icon {
-    color: black;
-}
-
-.project-icon img {
-    /*max-width: 200px;*/
-    height: 100px;
-
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-@media (max-width: 600px) {
-    .project-item {
-        display: block;
-    }
 }
 
 #about-profile {
