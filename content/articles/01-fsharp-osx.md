@@ -190,7 +190,7 @@ I will update it in the future as the technology gets better (hopefully).
 
 
 ## Useful resources
- - [F# Foundation](https://fsharp.org)
+ - [F# Foundation](http://fsharp.org)
  - [F# for Fun and Profit](https://fsharpforfunandprofit.com/) - Excellent tutorials
  - [F# Wikibook](https://en.wikibooks.org/wiki/F_Sharp_Programming) - Great references
  - [F# Cheatsheet](https://dungpa.github.io/fsharp-cheatsheet/) - Quicker references!

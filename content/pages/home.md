@@ -8,4 +8,4 @@ Si vous avez besoin de support technique pour l'application RTC Mobile Windows P
 
 If you need technical support for RTC Mobile Windows Phone do not hesitate to contact me ([À propos](/pages/about.html#contact_title))!
 
-> This website doesn't have an english version for the moment but the blog will probably have articles in english (because logic).
+> This website doesn't have an english version for the moment but the blog will mostly have articles in english only.
