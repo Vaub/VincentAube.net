@@ -36,10 +36,10 @@
     </address>
     {% endif %}
 </footer><!-- /.post-info -->
-<div class="entry-content">
+<div class="entry-content" data-no-instant>
     {{ article.content }}
 </div><!-- /.entry-content -->
-<div class="entry-comments">
+<div class="entry-comments" data-no-instant>
     {% include "disqus.html" %}
 </div>
 {% endblock %}

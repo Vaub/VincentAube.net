@@ -62,6 +62,10 @@ nav a {
     color: black;
 }
 
+#instantclick-bar {
+    background: #BB1907;
+}
+
 #head {
     text-align: center;
 
