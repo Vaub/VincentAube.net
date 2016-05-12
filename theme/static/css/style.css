@@ -62,8 +62,8 @@ nav a {
     color: black;
 }
 
-#instantclick-bar {
-    background: #BB1907;
+#instantclick {
+    display: none;
 }
 
 #head {
