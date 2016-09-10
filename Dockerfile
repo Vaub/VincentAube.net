@@ -1,5 +1,8 @@
 FROM nginx
 
+COPY nginx.conf /etc/nginx/nginx.conf
+RUN mkdir -p /usr/share/nginx/ssl
+
 RUN apt-get update && \
     apt-get -y install python-pip
 
