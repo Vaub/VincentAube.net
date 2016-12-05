@@ -22,6 +22,8 @@ Projets personnels et scolaires.
         <p class="card-text">
             Application du RTC pour Windows Phone (8.0+)<br />
             Elle n'est en développement, mais les horaires sont toujours mises à jours ainsi que les problèmes critiques.
+            <br />
+            <a href="/pages/rtc.html">politique des données privées</a>
         </p>
     </li>
 </ul>
