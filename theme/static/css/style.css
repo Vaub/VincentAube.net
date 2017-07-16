@@ -69,11 +69,12 @@ nav a {
 #head {
     text-align: center;
 
-    padding: 20px 0;
+    padding: 40px 0 20px 0;
 }
 
-#head img {
-    height: 75px;
+#head #title {
+    font-size: 2.0em;
+    font-weight: bold;
 }
 
 section {
@@ -134,7 +135,7 @@ footer {
     padding-top: 20px;
 }
 
-.profile-picture {
+/* .profile-picture {
     text-align: center;
     background: url('/images/profile-background.jpg') center no-repeat;
     background-size: cover;
@@ -145,6 +146,15 @@ footer {
     width: 100%;
     left: 0;
     right: 0;
+} */
+
+.profile-picture {
+    float: right;
+}
+
+.profile-picture, .profile-info {
+    margin: 10px 0;
+    display: inline-block;
 }
 
 .profile-picture img {
@@ -153,10 +163,6 @@ footer {
     margin: auto;
 
     border: 3px solid #CCCCCC;
-}
-
-#about-start {
-    margin-top: 300px;
 }
 
 .cards {

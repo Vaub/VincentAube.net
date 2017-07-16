@@ -1,4 +1,4 @@
-Title: Vincent Aubé
+Title: 
 save_as: index.html
 
 Bienvenue sur mon site web / blog / porfolio.
@@ -8,4 +8,4 @@ Si vous avez besoin de support technique pour l'application RTC Mobile Windows P
 
 If you need technical support for RTC Mobile Windows Phone do not hesitate to contact me ([À propos](/pages/about.html#contact))!
 
-> This website doesn't have an english version for the moment but the blog will mostly have articles in english only.
+> This website does not have an English version other than the blog's articles. Please refer to my LinkedIn for any professional inquiry.
