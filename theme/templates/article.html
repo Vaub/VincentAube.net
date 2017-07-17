@@ -24,8 +24,9 @@
         {{ article.locale_date }}
     </time>
     {% if article.modified %}
+    <br />
     <time class="modified" datetime="{{ article.modified.isoformat() }}">
-        {{ article.locale_modified }}
+        last updated {{ article.locale_modified }}
     </time>
     {% endif %}
     {% if article.authors %}

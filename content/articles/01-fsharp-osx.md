@@ -1,7 +1,10 @@
 Title: F# development without Visual Studio
 Subtitle: Exploration of tooling focusing on OS X
 Date: 2016-04-07 6:00
+Modified: 2017-07-16 23:00
 Category: blog
+
+> **UPDATE** - The tooling for F# has vastly improved in the last year. As such, I recommend to use Ionide and Forge (the integration in VS Code being the best) for most operations. Some of these instructions might not be up to date.
 
 For my first article, I will talk about the technologies I am using to do side project with F# without Visual Studio.
 While I **focus on OS X**, most of it is applicable with Linux (and Windows!). I chose this subject as I did not have a lot of knowledge of the .NET ecosystem
